@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+
+.header-topbar p {
+    text-align: center;
+    background-color: #ffcc01;
+    color: #7f1390;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+header {
+    background-image: url(./assets/nav-bg.jpg);
+    background-color: #7f1390;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 140px;
+}
+
+/* nav */
+
+.bg-gatwurno {
+    background-color: #7f1390;
+}
+
+.color-text {
+    color: #ffcc01 !important;
+}
+
+.color-text:hover {
+    color: #9e41a5 !important;
+    transition: 0.5s;
+}
+.navbar-toggler {
+
+    color: #ffcc01 !important;
+}
