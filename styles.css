@@ -1,19 +1,33 @@
+@font-face {
+    font-family: 'Inlanders';
+    src: url('Inlanders Demo') format ('opentype');
+}
+
+@font-face {
+    font-family: 'Tommy';
+    src: url('MADE TOMMY Bold_PERSONAL USE') format ('opentype');
+}
+
+@font-face {
+    font-family: 'Formula';
+    src: url('FontsFree-Net-FormulaCondensed-Bold') format ('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 /* header */
 
 .header-topbar p {
+    font-family: 'Tommy', 'sans-serif';
     text-align: center;
     background-color: #ffcc01;
     color: #7f1390;
-    font-weight: 500;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 header {
@@ -34,7 +48,9 @@ header {
 }
 
 .color-text {
+    font-family: 'Formula', 'sans-serif';
     color: #ffcc01 !important;
+    font-size: 28px !important;
 }
 
 .color-text:hover {
@@ -45,3 +61,47 @@ header {
 
     color: #ffcc01 !important;
 }
+
+/* produtos */
+
+.produtos {
+    background-image: url(./assets/padrao-gatwurno.png);
+    background-color: #ffcc01;
+}
+
+.title-produtos {
+    font-family: 'Inlanders', 'sans-serif';
+    padding: 5px;
+    font-size: 32px;
+    color: #7f1390;
+}
+
+.card-title {
+    font-family: 'Formula', 'sans-serif';
+    font-size: 18px;
+    color: #7f1390 !important;
+}
+
+.valor-riscado {
+    font-family:'Tommy', 'sans-serif';
+    color: #c388c7;
+    font-size: 12px;
+}
+
+.valor-normal, .card-text{
+    font-family: 'Inlanders', 'sans-serif';
+    color:#500a56  !important;
+    font-size: 20px; 
+}
+
+.btn-warning {
+    color: #7f1390 !important;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.2) translateY(-8px);
+  }
