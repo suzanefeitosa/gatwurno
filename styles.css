@@ -65,6 +65,7 @@ header {
 /* produtos */
 
 .produtos {
+   
     background-image: url(./assets/padrao-gatwurno.png);
     background-color: #ffcc01;
 }
@@ -105,3 +106,32 @@ header {
   .card-img-top:hover {
     transform: scale(1.2) translateY(-8px);
   }
+
+/* sobre a empresa */
+
+.empresa {
+    background-image: url(./assets/padrao-gatwurno.png);
+    background-color: #ffcc01;
+}
+.title-empresa {
+    font-family: 'Inlanders', 'sans-serif';
+    font-size: 32px;
+    color: #7f1390;
+}
+
+.img-gatos {
+    border-radius: 5%;
+    width: 380px;
+}
+
+.title-about {
+    font-family: 'Formula', 'sans-serif';
+    color: #7f1390 !important;
+    font-size: 35px; 
+}
+
+.text-about {
+    font-family: 'Formula', 'sans-serif';
+    color: #500a56 !important;
+    font-size: 20px; 
+}
