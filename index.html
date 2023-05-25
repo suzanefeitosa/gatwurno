@@ -11,7 +11,7 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
-    <div class="header-topbar">
+    <div class="header-topbar" id="inicio">
         <p>Um mundo geek para você humano.</p>
     </div>
     <header>
@@ -27,13 +27,13 @@
                 <div class="collapse navbar-collapse d-flex-lg justify-content-center" id="navbarNavAltMarkup">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active color-text" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active color-text" aria-current="page" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link color-text" href="#produtos">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link color-text" href="#">Conheça a Gatwurno</a>
+                        <a class="nav-link color-text" href="#sobre">Sobre a Gatwurno</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link color-text" href="#">Nosso Time</a>
@@ -67,7 +67,7 @@
           </div>
     </div>
     <section class="produtos" id="produtos">
-        <h1 class="d-flex justify-content-center title-produtos">Nossos produtos</h1>
+        <h1 class="d-flex justify-content-center title-produtos pt-3">Nossos produtos</h1>
 
         <!-- Cards -->
 
@@ -155,7 +155,28 @@
         </div>
   
     </section>
-    <section class="empresa"></section>
+    <section class="empresa" id="sobre">
+     <div class="divisoria"><img class="img-fluid" src="./assets/divisao.png" alt="ondas da cor roxa"><div>
+      <h1 class="d-flex justify-content-center title-empresa">Sobre a Gatwurno</h1>
+      <!-- Conteudo -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 order-md-last">
+            <img class="img-gatos" src="./assets/gatos.jpg" alt="foto de três gatos e em cima a logomarca da gatwurno">
+          </div>
+          <div class="col-md-6 order-md-first ">
+            <p><span class="title-about">Somos a Gatwurno, o único e-commerce geek administrado por gatos!</span><br>
+              <span class="text-about">
+              A Gatwurno é formada por Aurora, Neblina e Nevoeiro e juntos trazemos uma loja única e inovadora para os amantes da cultura geek.
+              Desde agosto de 2021, conquistamos o Instagram com nossas garras afiadas e nossas ideias criativas.
+              Aurora e Neblina lideram nosso império, trazendo sua sabedoria felina e paixão pelo universo geek.
+              Nevoeiro, nosso estagigato, está sempre pronto para te surpreender e os nossos <del>escravos</del> humanos tem selo de qualidade em garantir uma experiência excepcional para todos os clientes. <br> Bem vindo a Gatwurno, onde os gatos dominam tudo, a sua aventura geek está só começando!</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
     <section time></section>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
