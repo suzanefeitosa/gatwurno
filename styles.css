@@ -57,6 +57,7 @@ header {
     color: #9e41a5 !important;
     transition: 0.5s;
 }
+
 .navbar-toggler {
 
     color: #ffcc01 !important;
@@ -65,7 +66,7 @@ header {
 /* produtos */
 
 .produtos {
-   
+
     background-image: url(./assets/padrao-gatwurno.png);
     background-color: #ffcc01;
 }
@@ -84,15 +85,16 @@ header {
 }
 
 .valor-riscado {
-    font-family:'Tommy', 'sans-serif';
+    font-family: 'Tommy', 'sans-serif';
     color: #c388c7;
     font-size: 12px;
 }
 
-.valor-normal, .card-text{
+.valor-normal,
+.card-text {
     font-family: 'Inlanders', 'sans-serif';
-    color:#500a56  !important;
-    font-size: 20px; 
+    color: #500a56 !important;
+    font-size: 20px;
 }
 
 .btn-warning {
@@ -101,11 +103,11 @@ header {
 
 .card-img-top {
     transition: transform 0.3s ease;
-  }
-  
-  .card-img-top:hover {
+}
+
+.card-img-top:hover {
     transform: scale(1.2) translateY(-8px);
-  }
+}
 
 /* sobre a empresa */
 
@@ -113,6 +115,7 @@ header {
     background-image: url(./assets/padrao-gatwurno.png);
     background-color: #950B94;
 }
+
 .title-empresa {
     font-family: 'Inlanders', 'sans-serif';
     font-size: 32px;
@@ -126,12 +129,58 @@ header {
 
 .title-about {
     font-family: 'Formula', 'sans-serif';
-    color: #FFCD00!important;
-    font-size: 35px; 
+    color: #FFCD00 !important;
+    font-size: 35px;
 }
 
 .text-about {
     font-family: 'Tommy', 'sans-serif';
-    color: white!important;
-    font-size: 20px; 
+    color: white !important;
+    font-size: 20px;
+}
+
+/* Equipe  */
+
+.time {
+    background-image: url(./assets/padrao-gatwurno.png);
+}
+
+.title-time {
+    font-family: 'Inlanders', 'sans-serif';
+    font-size: 32px;
+    color: #7f1390;
+}
+
+.text-time {
+    font-family: 'Tommy', 'sans-serif';
+    font-size: 15px;
+    color: #500a56;
+}
+
+.img-equipe {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.name-team {
+
+    font-family: 'Formula', 'sans-serif';
+    color: #500a56;
+    font-size: 20px;
+}
+
+.text-team {
+    font-family: 'Tommy', 'sans-serif';
+    color: #c388c7;
+    font-size: 12px;
+
+}
+
+.icons-social a {
+
+    color: #500a56;
+    text-decoration: none;
+    padding: 4px;
+    margin-top: 0;
+
 }

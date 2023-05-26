@@ -2,188 +2,236 @@
 <html lang="PT-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Gatwurno - Geek Store</title>
-    <link rel="shortcut icon" href="./assets/gatwurno.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Gatwurno - Geek Store</title>
+  <link rel="shortcut icon" href="./assets/gatwurno.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
 </head>
+
 <body>
-    <div class="header-topbar" id="inicio">
-        <p>Um mundo geek para você humano.</p>
+  <div class="header-topbar" id="inicio">
+    <p>Um mundo geek para você humano.</p>
+  </div>
+  <header>
+    <img class="logo" src="./assets/gatwurno-logo.png"
+      alt="logo gatwurno, um simbolo amarelo de um gato com anel do planeta saturno">
+  </header>
+  <div class="menu">
+    <nav class="navbar navbar-expand-lg bg-gatwurno">
+      <div class="container-fluid ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex-lg justify-content-center" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active color-text" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-text" href="#produtos">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-text" href="#sobre">Sobre a Gatwurno</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-text" href="#time">Nosso Time</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <div class="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/carousel - banner gato.jpg" class="d-block w-100"
+            alt="Imagem escrito Somos a única loja geek moderada por gatos">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/carousel - banner baby yoda.jpg" class="d-block w-100"
+            alt="Imagem escrito Desperte a força em você">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/carousel - banner zoro .jpg" class="d-block w-100"
+            alt="Imagem escrito Aniversário Gatwurno">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/carousel - banner naruto.jpg" class="d-block w-100"
+            alt="Imagem escrito Encontre seu estilo ninja">
+        </div>
+      </div>
     </div>
-    <header>
-        <img class="logo" src="./assets/gatwurno-logo.png"
-            alt="logo gatwurno, um simbolo amarelo de um gato com anel do planeta saturno">
-    </header>
-    <div class="menu">
-        <nav class="navbar navbar-expand-lg bg-gatwurno">
-            <div class="container-fluid ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex-lg justify-content-center" id="navbarNavAltMarkup">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active color-text" aria-current="page" href="#inicio">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-text" href="#produtos">Produtos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-text" href="#sobre">Sobre a Gatwurno</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-text" href="#">Nosso Time</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <div class="carousel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/carousel - banner gato.jpg" class="d-block w-100" alt="Imagem escrito Somos a única loja geek moderada por gatos">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/carousel - banner baby yoda.jpg" class="d-block w-100" alt="Imagem escrito Desperte a força em você">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/carousel - banner zoro .jpg" class="d-block w-100" alt="Imagem escrito Aniversário Gatwurno">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/carousel - banner naruto.jpg" class="d-block w-100" alt="Imagem escrito Encontre seu estilo ninja">
-              </div>
-            </div>
-          </div>
-    </div>
-    <section class="produtos" id="produtos">
-        <h1 class="d-flex justify-content-center title-produtos pt-3">Nossos produtos</h1>
+  </div>
+  <section class="produtos" id="produtos">
+    <h1 class="d-flex justify-content-center title-produtos pt-3">Nossos produtos</h1>
 
-        <!-- Cards -->
+    <!-- Cards -->
 
-        <div class="row ps-4 w-100">
-        <div class="col-md-3 col-6 mb-2">
-          <div class="card">
-            <img src="./assets/produto1-baby-yoda.png" class="card-img-top" alt="Figure Baby Yoda, levando uma tijela a boca">
-            <div class="card-body">
-              <h5 class="card-title">STAR WARS - FIGURE BABY YODA 23CM</h5>
-              <p class="card-text"><del class="valor-riscado">R$120</del> <span class="valor-normal">R$96</span></p>
-              <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-6 mb-2">
-          <div class="card">
-            <img src="./assets/produto2-zoro.png" class="card-img-top" alt="Figure zoro em posição de ataque">
-            <div class="card-body">
-              <h5 class="card-title">ONE PIECE - FIGURE RORONOA ZORO 18CM</h5>
-              <p class="card-text"><del class="valor-riscado">R$300</del> <span class="valor-normal">R$150</span></p>
-              <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-6 mb-2">
-          <div class="card">
-            <img src="./assets/produto3-naruto.png" class="card-img-top" alt="Moletom naruto nas cores vermelho e preto">
-            <div class="card-body">
-              <h5 class="card-title">NARUTO - MOLETOM UNISSEX</h5>
-              <p class="card-text">R$80</p>
-              <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-6 mb-2">
-          <div class="card">
-            <img src="./assets/produto4-luffy.png" class="card-img-top" alt="Figure Luffy">
-            <div class="card-body">
-              <h5 class="card-title">ONE PIECE - FIGURE MONKEY D. LUFFY 18CM</h5>
-              <p class="card-text">R$200</p>
-              <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-6 mb-2">
-          <div class="card">
-            <img src="./assets/produto5-saitama.png" class="card-img-top" alt="Figure Saitama">
-            <div class="card-body">
-              <h5 class="card-title">ONE PUNCH MAN - FIGURE SAITAMA 15CM</h5>
-              <p class="card-text">R$120</p>
-              <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-6 mb-2">
-          <div class="card">
-            <img src="./assets/produto6-ace.png" class="card-img-top" alt="Figure Ace">
-            <div class="card-body">
-              <h5 class="card-title"> ONE PIECE - FIGURE PORTEGAR D. ACE 18CM</h5>
-              <p class="card-text">R$115</p>
-              <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-6 mb-2">
-          <div class="card">
-            <img src="./assets/produto7-goku.png" class="card-img-top" alt="FIGURE GOKU">
-            <div class="card-body">
-              <h5 class="card-title">DRAGON BALL - FIGURE GOKU 15CM </h5>
-              <p class="card-text">R$90</p>
-              <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-6 mb-2">
-          <div class="card">
-            <img src="./assets/produto8-funko.png" class="card-img-top" alt="FUNKO POP HOMEM DE FERRO">
-            <div class="card-body">
-              <h5 class="card-title">MARVEL - FUNKO POP HOMEM DE FERRO</h5>
-              <p class="card-text">R$100</p>
-              <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
-            </div>
-          </div>
-        </div>
-        </div>
-  
-    </section>
-    <section class="empresa" id="sobre">
-     <div class="divisoria"><img class="img-fluid" src="./assets/divisao.png" alt="ondas da cor amarela"><div>
-      <h1 class="d-flex justify-content-center title-empresa mt-sm-4">Sobre a Gatwurno</h1>
-      <!-- Conteudo -->
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-6 order-md-last mt-3">
-            <img class="img-gatos rounded float-end" src="./assets/gatos.jpg" alt="foto de três gatos e em cima a logomarca da gatwurno">
-          </div>
-          <div class="col-md-6 order-md-first ">
-            <p><span class="title-about">Somos a Gatwurno, o único e-commerce geek administrado por gatos!</span><br>
-              <span class="text-about">
-              A Gatwurno é formada por Aurora, Neblina e Nevoeiro e juntos trazemos uma loja única e inovadora para os amantes da cultura geek.
-              Desde agosto de 2021, conquistamos o Instagram com nossas garras afiadas e nossas ideias criativas.
-              Aurora e Neblina lideram nosso império, trazendo sua sabedoria felina e paixão pelo universo geek.
-              Nevoeiro, nosso estagigato, está sempre pronto para te surpreender e os nossos <del>escravos</del> humanos tem selo de qualidade em garantir uma experiência excepcional para todos os clientes. <br> Bem vindo a Gatwurno, onde os gatos dominam tudo, a sua aventura geek está só começando!</span>
-            </p>
+    <div class="row ps-4 w-100">
+      <div class="col-md-3 col-6 mb-2">
+        <div class="card">
+          <img src="./assets/produto1-baby-yoda.png" class="card-img-top"
+            alt="Figure Baby Yoda, levando uma tijela a boca">
+          <div class="card-body">
+            <h5 class="card-title">STAR WARS - FIGURE BABY YODA 23CM</h5>
+            <p class="card-text"><del class="valor-riscado">R$120</del> <span class="valor-normal">R$96</span></p>
+            <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
           </div>
         </div>
       </div>
-      
-    </section>
-    <section class="time">
-   <img class="img-fluid" src="./assets/divisao-roxa.png" alt="ondas da cor roxa">
-    </section>
-    <footer></footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+      <div class="col-md-3 col-6 mb-2">
+        <div class="card">
+          <img src="./assets/produto2-zoro.png" class="card-img-top" alt="Figure zoro em posição de ataque">
+          <div class="card-body">
+            <h5 class="card-title">ONE PIECE - FIGURE RORONOA ZORO 18CM</h5>
+            <p class="card-text"><del class="valor-riscado">R$300</del> <span class="valor-normal">R$150</span></p>
+            <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 mb-2">
+        <div class="card">
+          <img src="./assets/produto3-naruto.png" class="card-img-top" alt="Moletom naruto nas cores vermelho e preto">
+          <div class="card-body">
+            <h5 class="card-title">NARUTO - MOLETOM UNISSEX</h5>
+            <p class="card-text">R$80</p>
+            <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 mb-2">
+        <div class="card">
+          <img src="./assets/produto4-luffy.png" class="card-img-top" alt="Figure Luffy">
+          <div class="card-body">
+            <h5 class="card-title">ONE PIECE - FIGURE MONKEY D. LUFFY 18CM</h5>
+            <p class="card-text">R$200</p>
+            <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 mb-2">
+        <div class="card">
+          <img src="./assets/produto5-saitama.png" class="card-img-top" alt="Figure Saitama">
+          <div class="card-body">
+            <h5 class="card-title">ONE PUNCH MAN - FIGURE SAITAMA 15CM</h5>
+            <p class="card-text">R$120</p>
+            <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 mb-2">
+        <div class="card">
+          <img src="./assets/produto6-ace.png" class="card-img-top" alt="Figure Ace">
+          <div class="card-body">
+            <h5 class="card-title"> ONE PIECE - FIGURE PORTEGAR D. ACE 18CM</h5>
+            <p class="card-text">R$115</p>
+            <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 mb-2">
+        <div class="card">
+          <img src="./assets/produto7-goku.png" class="card-img-top" alt="FIGURE GOKU">
+          <div class="card-body">
+            <h5 class="card-title">DRAGON BALL - FIGURE GOKU 15CM </h5>
+            <p class="card-text">R$90</p>
+            <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 mb-2">
+        <div class="card">
+          <img src="./assets/produto8-funko.png" class="card-img-top" alt="FUNKO POP HOMEM DE FERRO">
+          <div class="card-body">
+            <h5 class="card-title">MARVEL - FUNKO POP HOMEM DE FERRO</h5>
+            <p class="card-text">R$100</p>
+            <a href="#" class="btn-sm btn btn-warning d-flex justify-content-center">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="empresa" id="sobre">
+    <div class="divisoria"><img class="img-fluid" src="./assets/divisao.png" alt="ondas da cor amarela">
+      <div>
+        <h1 class="d-flex justify-content-center title-empresa mt-sm-4">Sobre a Gatwurno</h1>
+        <!-- Conteudo -->
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-6 order-md-last mt-3">
+              <img class="img-gatos rounded float-end" src="./assets/gatos.jpg"
+                alt="foto de três gatos e em cima a logomarca da gatwurno">
+            </div>
+            <div class="col-md-6 order-md-first ">
+              <p><span class="title-about">Somos a Gatwurno, o único e-commerce geek administrado por gatos!</span><br>
+                <span class="text-about">
+                  A Gatwurno é formada por Aurora, Neblina e Nevoeiro e juntos trazemos uma loja única e inovadora para
+                  os amantes da cultura geek.
+                  Desde agosto de 2021, conquistamos o Instagram com nossas garras afiadas e nossas ideias criativas.
+                  Aurora e Neblina lideram nosso império, trazendo sua sabedoria felina e paixão pelo universo geek.
+                  Nevoeiro, nosso estagigato, está sempre pronto para te surpreender e os nossos <del>escravos</del>
+                  humanos tem selo de qualidade em garantir uma experiência excepcional para todos os clientes. <br> Bem
+                  vindo a Gatwurno, onde os gatos dominam tudo, a sua aventura geek está só começando!</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+  </section>
+  <section class="time" id="time">
+    <img class="img-fluid" src="./assets/divisao-roxa.png" alt="ondas da cor roxa">
+    <h1 class="d-flex justify-content-center title-time">Nossos humanos</h1>
+    <p class="d-flex justify-content-center text-time">São eles que fazem tudo acontecer</p>
+    <div class="container mt-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+          <figure class="text-center mb-0">
+            <img class="img-equipe shadow p-2 mb-2" src="./assets/time-1.jpg" alt="mulher com braços cruzados">
+            <figcaption class="name-team">Suzane Feitosa</figcaption>
+          </figure>
+          <p class="text-team text-center my-0">Design e Social Media</p>
+          <div class="icons-social d-flex justify-content-center my-0">
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <figure class="text-center mb-0">
+            <img class="img-equipe shadow p-2 mb-2" src="./assets/time-2.jpg" alt="foto de um homem">
+            <figcaption class="name-team">Marlysson Mendes</figcaption>
+          </figure>
+          <p class="text-team text-center my-0">Vendas e Produção</p>
+          <div class="icons-social d-flex justify-content-center m-0">
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
