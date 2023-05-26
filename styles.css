@@ -111,12 +111,12 @@ header {
 
 .empresa {
     background-image: url(./assets/padrao-gatwurno.png);
-    background-color: #ffcc01;
+    background-color: #950B94;
 }
 .title-empresa {
     font-family: 'Inlanders', 'sans-serif';
     font-size: 32px;
-    color: #7f1390;
+    color: #ffcc01;
 }
 
 .img-gatos {
@@ -126,12 +126,12 @@ header {
 
 .title-about {
     font-family: 'Formula', 'sans-serif';
-    color: #7f1390 !important;
+    color: #FFCD00!important;
     font-size: 35px; 
 }
 
 .text-about {
-    font-family: 'Formula', 'sans-serif';
-    color: #500a56 !important;
+    font-family: 'Tommy', 'sans-serif';
+    color: white!important;
     font-size: 20px; 
 }
