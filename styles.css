@@ -143,6 +143,7 @@ header {
 
 .time {
     background-image: url(./assets/padrao-gatwurno.png);
+   
 }
 
 .title-time {
@@ -171,7 +172,7 @@ header {
 
 .text-team {
     font-family: 'Tommy', 'sans-serif';
-    color: #c388c7;
+    color: #7f1390;
     font-size: 12px;
 
 }
